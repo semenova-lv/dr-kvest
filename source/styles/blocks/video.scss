@@ -1,0 +1,63 @@
+.video-list {
+  width: 80%;
+  min-height: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.video__item {
+  display: block;
+}
+
+.video__button {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  outline: 5px solid green;
+  border: none;
+  // background-color: transparent;
+  padding: 0;
+  background-position: center;
+  cursor: pointer;
+
+  &--fox {
+    background-image: url(../../images/img__fox@2x.webp);
+  }
+
+  &--kesha {
+    background-image: url(../../images/img__kesha@2x.webp);
+  }
+
+  &--tuchka {
+    background-image: url(../../images/img__tuchka@2x.webp);
+  }
+
+  &--boom {
+    background-image: url(../../images/img__boom@2x.webp);
+    background-size: cover;
+
+  }
+
+  &--disco {
+    background-image: url(../../images/img__dance@2x.webp);
+
+  }
+
+  &--end {
+    background-image: url(../../images/img__end@2x.webp);
+  }
+
+  &:hover {
+    // opacity: 0.8;
+    background-color: white;
+    scale: 1.2;
+    transition: scale 0.3s ease;
+  }
+
+}

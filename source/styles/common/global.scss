@@ -1,0 +1,24 @@
+/* здесь используйте глобальные селекторы img, body, html и так далее */
+body {
+  margin: 0;
+}
+
+main {
+  background-image: url(../../images/location_6@2x.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
